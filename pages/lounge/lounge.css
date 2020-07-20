@@ -5,3 +5,27 @@ h1,h2{
 h1{
   border-bottom: 1px solid black;
 }
+
+.green {
+  color: black;
+  background-color: lightgreen;
+  opacity: 0.2;
+}
+
+.rasberry {
+  color: black;
+  background-color: lightblue;
+  opacity: 0.2;
+}
+
+.blueberry {
+  color: black;
+  background-color: purple;
+  opacity: 0.2;
+}
+
+.cranberry {
+  color: black;
+  background-color: red;
+  opacity: 0.2;
+}
