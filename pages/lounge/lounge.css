@@ -1,5 +1,18 @@
-h1,h2{
+body{
+  font-family: "Last Ninja" Sans,Geneva,Arial,sans-serif;
+  font-style:normal;
+  font-size: small;
+
+}
+
+h1{
   color: grey;
+  font-size: 170%;
+}
+
+h2{
+  color: grey;
+  font-size: 130%;
 }
 
 h1{
