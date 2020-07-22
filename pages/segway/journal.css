@@ -6,6 +6,10 @@ body{
 
 h1,h2{
   font-weight: normal;
+  color: #ccbb00;
+  /* border-style: solid;
+  border-color: blue; */
+  border-bottom: thin dotted #888888;
 }
 
 h1{
@@ -19,3 +23,44 @@ h2{
 blockquote{
   font-style: italic;
 }
+
+.a{background-color: rgb(18,18,18);}
+
+
+.b{background-color: rgb(34,34,34);}
+
+
+.c{background-color: rgb(51,51,51);}
+
+
+.d{background-color: rgb(68,68,68);}
+
+
+.e{background-color: rgb(85,85,85);}
+
+
+.f{background-color: rgb(102,102,102);}
+
+
+.g{background-color: rgb(119,119,119);}
+
+
+.h{background-color: rgb(136,136,136);}
+
+
+.i{background-color: rgb(153,153,153);}
+
+
+.j{background-color: rgb(170,170,170);}
+
+
+.k{background-color: rgb(187,187,187);}
+
+
+.l{background-color: rgb(204,204,204);}
+
+
+.m{background-color: rgb(221,221,221);}
+
+
+.n{background-color: rgb(238,238,238);}
