@@ -57,3 +57,11 @@ h2{
   background-color: red;
   opacity: 0.2;
 }
+
+#elixirs {
+  border-width: thin;
+  border-style: solid;
+  border-color: rgb(0, 127, 127);
+  width: 200px;
+  position: relative;
+}
