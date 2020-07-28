@@ -94,3 +94,16 @@ h2{
 .artist{
   font-weight: bold;
 }
+
+#elixir a:link{
+  color: green;
+}
+
+#elixir a:visited{
+  color: red;
+}
+
+#elixir a:hover{
+  color: yellow;
+
+}
