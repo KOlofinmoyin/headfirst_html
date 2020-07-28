@@ -69,6 +69,7 @@ h2{
   padding-bottom: 20px;
   padding-left: 20px;
   margin-left: 20px;
+  line-height: 1;
 }
 
 #elixirs > h2{
@@ -77,4 +78,11 @@ h2{
 
 #elixirs > h3{
   color: #d12c47;
+}
+
+#footer{
+  font-size: 50%;
+  line-height: normal;
+  text-align: center;
+  margin-top: 30px;
 }
