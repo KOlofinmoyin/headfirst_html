@@ -70,6 +70,7 @@ h2{
   padding-left: 20px;
   margin-left: 20px;
   line-height: 1;
+  float:right; 
 }
 
 #elixirs > h2{
@@ -95,15 +96,23 @@ h2{
   font-weight: bold;
 }
 
-#elixir a:link{
+#elixirs a:link{
   color: green;
 }
 
-#elixir a:visited{
+#elixirs a:visited{
   color: red;
 }
 
-#elixir a:hover{
+#elixirs a:hover{
   color: yellow;
 
+}
+
+a:link{
+  color: #007e7e;
+}
+
+a:visited{
+  color: #333333;
 }
