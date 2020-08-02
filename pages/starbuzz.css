@@ -16,16 +16,17 @@
     background-color: #cccccc;
     font-size: 105%;
     padding: 15px;
-    margin: 0px 10px 10px 10px;
+    margin: 10px;
+    margin: 0px 330px 10px 10px;
 }
 
-#sidebar{
+#sidebar {
   background-color: #cccccc;
   font-size: 105%;
   padding: 15px;
   margin: 0px 10px 10px 10px;
-  border-left: 10px;
-  width: 300px;
+  /* border-left: 10px; */
+  width: 280px;
   float: right;
 }
 
@@ -36,6 +37,7 @@
   padding: 15px;
   margin-left: 10px;
   font-size: 90%;
+  clear: right;
 }
 
 h1{
