@@ -17,9 +17,18 @@
     font-size: 105%;
     padding: 15px;
     /* margin: 10px; */
-    margin: 0px 10px 10px 10px;
-    width: 420px;
-    float: left;
+    margin: 0px 330px 10px 10px;
+    /* float: left; */
+
+}
+
+#beverages{
+  background-color: #cccccc;
+  font-size: 105%;
+  padding: 15px;
+  margin: 10px;
+  width: 200px;
+  float: left;
 }
 
 #sidebar {
@@ -27,19 +36,23 @@
   font-size: 105%;
   padding: 15px;
   margin: 0px 10px 10px 470px;
+  /* position: absolute; */
+  /* top:128px; */
+  /* right: 0px; */
   /* border-left: 10px; */
-  /* width: 280px; */
+  width: 200px;
   /* float: right; */
+  float: right;
 }
-
+/*
 #allcontent{
     width: 800px;
     padding: 5px;
     padding-bottom: 5px;
     /* background-color: #675c47; */
-    margin-left: auto;
+    /* margin-left: auto;
     margin-right: auto;
-}
+} */
 
 #footer{
   background-color: #675c47;
@@ -48,7 +61,7 @@
   padding: 15px;
   margin-left: 10px;
   font-size: 90%;
-  clear: left;
+  clear: both;
 }
 
 h1{
