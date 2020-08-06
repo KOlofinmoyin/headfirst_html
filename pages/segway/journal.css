@@ -46,7 +46,7 @@ td,th{
   text-align: right;
 }
 
-th{
+#parent > th{
     background-color: #cc6600;
 }
 
