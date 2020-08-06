@@ -29,12 +29,31 @@ table{
   margin-right: 20px;
   border: thin solid black;
   caption-side: bottom;
+  /* border-spacing: 30px 30px; */
+  border-collapse: collapse;
 }
 
 td,th{
-  border: thin dotted gray;
+  border: thin solid gray;
   padding: 5px;
 }
+
+.center-aligned{
+  text-align: center;
+}
+
+.right-aligned{
+  text-align: right;
+}
+
+th{
+    background-color: #cc6600;
+}
+
+.cellcolor{
+  background-color: #fcba7a;
+}
+
 .a{background-color: rgb(18,18,18);}
 
 
