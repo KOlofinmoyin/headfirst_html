@@ -57,6 +57,8 @@ td,th{
 li{
   list-style-image: url(images/backpack.jpg);
   margin-left: 120px;
+  list-style-position: inside;
+
 }
 .a{background-color: rgb(18,18,18);}
 
