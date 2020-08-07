@@ -10,84 +10,107 @@
     <h2>Fill out the form below and click submit to order.</h2>
 
     <form class="" action="http://www.starbuzzcoffee.com/processorder.php" method="post">
-      <p>
-      <label for="beans">Choose your bean</label><br/>
-        <select class="" name="beans" multiple>
-          <option value="House">House Blend</option>
-          <option value="Bolivia">Shade Grown Bolivia</option>
-          <option value="Supremo">Supremo</option>
-          <option value="Guatemala">Organic Guatemala</option>
-          <option value="Kenyan">Kenyan</option>
-        </select>
-      </p>
 
-      <p>
-        <label for="type">Type <br/>
-          <input type="radio" name="beantype" value="whole">Whole bean <br/>
-          <input type="radio" name="beantype" value="ground"> Ground
-        </label>
-      </p>
+      <table>
+        <tr>
+          <th>
+          Choose your beans:
+        </th>
+          <td>
+            <select class="" name="beans">
+              <option value="House">House Blend</option>
+              <option value="Bolivia">Shade Grown Bolivia</option>
+              <option value="Supremo">Supremo</option>
+              <option value="Guatemala">Organic Guatemala</option>
+              <option value="Kenyan">Kenyan</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <th>Type:</th>
+          <td>
+            <input type="radio" name="beantype" value="whole">Whole bean <br/>
+            <input type="radio" name="beantype" value="ground"> Ground
+          </td>
+        </tr>
+        <tr>
+          <th>Extras</th>
+          <td>
+            <input type="checkbox" name="extras[]" value="giftwrap"> Gift wrapped <br/>
+            <input type="checkbox" name="extras[]" value="catalog" checked="checked"> Include catalog with order <br/>
+          </td>
+        </tr>
 
-      <p>
-        <label for="extras">Extras</label> <br/>
-          <input type="checkbox" name="extras[]" value="giftwrap"> Gift wrapped <br/>
-          <input type="checkbox" name="extras[]" value="catalog" checked="checked"> Include catalog with order <br/>
-      </p>
+        <tr>
+          <th>Ship to:</th>
+          <td>
+            <table>
+              <tr>
+                <th>Name</th>
+                <td>
+                  <input type="text" name="name" value="">
+                </td>
+              </tr>
 
-      <p>
-        <label for="shipping">Ship to:</label>
-        <table>
-          <tr>
-            <th>Name</th>
-            <td>
-              <input type="text" name="name" value="">
-            </td>
-          </tr>
+              <tr>
+                <th>Address:</th>
+                <td>
+                  <input type="text" name="address" value="">
+                </td>
+              </tr>
 
-          <tr>
-            <th>Address:</th>
-            <td>
-              <input type="text" name="address" value="">
-            </td>
-          </tr>
+              <tr>
+                <th>City:</th>
+                <td>
+                  <input type="text" name="city" value="">
+                </td>
+              </tr>
 
-          <tr>
-            <th>City:</th>
-            <td>
-              <input type="text" name="name" value="">
-            </td>
-          </tr>
+              <tr>
+                <th>State</th>
+                <td>
+                  <input type="text" name="state" value="">
+                </td>
+              </tr>
 
-          <tr>
-            <th>State</th>
-            <td>
-              <input type="text" name="name" value="">
-            </td>
-          </tr>
+              <tr>
+                <th>Zip</th>
+                <td>
+                  <input type="text" name="zip" value="">
+                </td>
+              </tr>
 
-          <tr>
-            <th>Zip</th>
-            <td>
-              <input type="text" name="name" value="">
-            </td>
-          </tr>
+              <tr>
+                <th>
+                  Telephone:
+                </th>
+                <td>
+                  <input type="text" name="phone">
+                </td>
+              </tr>
 
-          <tr>
-            <th>Customer Comments:</th>
-            <td>
 
-            </td>
-          </tr>
-          <tr>
-            <th></th>
-            <td>
-              <textarea name="comments" rows="10" cols="40"></textarea>
-            </td>
-          </tr>
-        </table>
-      </p>
+            </table>
+          </td>
+        </tr>
 
-      <input type="submit" name="" value="Order now">
+        <tr>
+          <th>
+            Customer Comments:
+          </th>
+          <td>
+            <textarea name="comments" rows="10" cols="40"></textarea>
+          </td>
+        </tr>
+
+        <tr>
+          <th></th>
+          <td>
+            <input type="submit" name="" value="Order Now"/>
+          </td>
+        </tr>
+      </table>
+
     </form>
   </body>
 </html>
