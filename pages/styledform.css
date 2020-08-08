@@ -1,0 +1,123 @@
+
+  body{
+    background: #efe5d0 url(starbuzz_logo.jpg);
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: small;
+    margin:128px 10px 10px 10px;
+    background-repeat: no-repeat;
+  }
+
+  table{
+    border: thin dotted #7e7e7e;
+    padding: 10px;
+  }
+
+  th{
+    text-align: right;
+    vertical-align: top;
+    padding-right: 10px;
+    padding-top: 2px;
+  }
+
+  td{
+    vertical-align: top;
+    padding-bottom: 15px;
+  }
+
+  table table{
+    border: none;
+    padding: 0px;
+  }
+
+  table table td{
+    text-align: right;
+    padding: 0px;
+  }
+
+  #header{
+    background-color: #675c47;
+    margin: 10px;
+    height: 108px;
+  }
+
+#main{
+    background-color: #cccccc;
+    font-size: 105%;
+    padding: 15px;
+    margin: 10px;
+    width: 800px;
+    /* margin: 0px 330px 10px 10px; */
+    /* float: left; */
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#beverages{
+  background-color: #cccccc;
+  font-size: 105%;
+  padding: 15px;
+  margin: 0px 10px 10px 10px;
+  width: 200px;
+  float: left;
+}
+
+#sidebar {
+  background-color: #cccccc;
+  font-size: 105%;
+  padding: 15px;
+  margin: 0px 10px 10px 0px;
+  /* position: absolute; */
+  /* top:128px; */
+  /* right: 0px; */
+  /* border-left: 10px; */
+  width: 200px;
+  /* float: right; */
+  float: right;
+}
+/*
+#allcontent{
+    width: 800px;
+    padding: 5px;
+    padding-bottom: 5px;
+    /* background-color: #675c47; */
+    /* margin-left: auto;
+    margin-right: auto;
+} */
+
+#footer{
+  background-color: #675c47;
+  color: #efe5d0;
+  text-align: center;
+  padding: 15px;
+  margin-left: 10px;
+  margin: 10px;
+  font-size: 90%;
+  clear: both;
+}
+
+h1{
+  font-size: 120%;
+  color: #954b4b;
+}
+
+.slogan{
+  color: #954b4b;
+}
+
+.beanheading{
+  text-align: center;
+  line-height: 1.8em;
+}
+
+a:link{
+  color: #b76666;
+  text-decoration: none;
+  border-bottom: thin dotted #b76666;
+}
+
+a:visited{
+  color: #675c47;
+  text-decoration: none;
+  border-bottom: thin dotted #675c47;
+}
