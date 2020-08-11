@@ -111,6 +111,9 @@ h1{
   line-height: 1.8em;
 }
 
+a{
+  cursor:wait;
+}
 a:link{
   color: #b76666;
   text-decoration: none;
