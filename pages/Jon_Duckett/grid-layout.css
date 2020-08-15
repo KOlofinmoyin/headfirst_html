@@ -19,11 +19,15 @@ li{
   padding: 5px;
 }
 
-.grid_4{
+/* .grid_4{
   width: 31.3%;
   float: left;
-  margin: 5px;
+  margin: 1%;
 }
+
+.column3{
+  margin-right: 0%;
+} */
 
 #footer{
   clear: both;
